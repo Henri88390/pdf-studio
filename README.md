@@ -1,7 +1,20 @@
 # Paperwork
 
-A browser-based PDF editor built with Next.js. PDFs are processed locally in the
-browser; the application does not upload documents to a server.
+Paperwork is a browser-based PDF editor built with Next.js. Open a PDF to draw
+or highlight on its pages and add text that remains editable when you reopen a
+PDF saved by Paperwork. You can also export pages as PNG or JPEG images and
+apply lossless PDF compression. Files are processed locally in your browser and
+are not uploaded to a server.
+
+## Screenshots
+
+Edit a document with text and highlights:
+
+![PDF editor showing a highlighted passage and an editable text annotation](docs/screenshots/editor.png)
+
+Compare lossless compression options and their output sizes:
+
+![Compress PDF dialog showing original and output sizes](docs/screenshots/compress.png)
 
 ## Run locally
 
